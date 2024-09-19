@@ -1,3 +1,8 @@
+Additional info:
+https://dm13450.github.io/2020/07/05/AlphaVantage.html
+https://dm13450.github.io/2021/03/27/CryptoAlphaVantage.html
+https://dm13450.github.io/2021/01/01/Fundamental-AlphaVantage.html
+
 # AlphaVantage
 
 [![CI](https://github.com/ellisvalentiner/AlphaVantage.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/ellisvalentiner/AlphaVantage.jl/actions/workflows/CI.yml)
