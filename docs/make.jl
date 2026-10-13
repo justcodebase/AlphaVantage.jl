@@ -5,7 +5,7 @@ makedocs(
 )
 
 deploydocs(
-    deps   = Deps.pip("mkdocs"),
+    deps   = nothing,  # No external dependencies needed for basic HTML docs
     repo   = "github.com/ellisvalentiner/AlphaVantage.jl.git",
     push_preview = true
 )

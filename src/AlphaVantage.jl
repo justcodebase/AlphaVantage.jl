@@ -1,9 +1,7 @@
-VERSION >= v"1.6.0"
-
 module AlphaVantage
 
-using Compat
 using ArgCheck
+using Compat
 using DelimitedFiles
 using HTTP
 using JSON
@@ -20,9 +18,10 @@ include("sector_performance.jl")
 include("fundamental_values.jl")
 include("fundamentals.jl")
 include("economic_indicators.jl")
+include("commodities.jl")
 
 # avclient
-export key, AlphaVantageClient, AlphaVantageResponse
+export key, AlphaVantageClient, AlphaVantageResponse, PremiumEndpointError
 
 # stock_time_series
 export
@@ -68,5 +67,8 @@ export
     treasury_yield,
     federal_fund_rate,
     cpi
+
+# commodities
+# `WTI` etc are exported in macro
 
 end # module
